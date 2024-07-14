@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/sr-high-resolution-logo-white.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="assets/images/Profile.jpg"
+              alt="Sarath Rajendran"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Sarath Rajendran">Sarath Rajendran</h1>
+
+            <p class="title">Student</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:sarath.rajendran.2021@gmail.com"
+                  class="contact-link"
+                  >sarath.rajendran.2021@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+918281726266" class="contact-link"
+                  >+91 8281726266</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">May 17, 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Calicut, Kerala, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/sarath-rajendran/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedIn"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://github.com/sarathRajendran123"
+                class="social-link"
+              >
+                <ion-icon name="logo-GitHub"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/sarath.rp/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hello! I'm Sarath Rajendran, a passionate and dedicated student
+              currently pursuing B.Tech Computer Science with specialization in
+              AI & ML at Vellore Instituite of Technology(VIT) Bhopal. My
+              journey through academia is driven by a curiosity to explore,
+              learn, and innovate within my field.
+            </p>
+
+            <p>
+              I have immersed myself in a diverse array of subjects, each
+              contributing to a comprehensive foundation in Computer Science.
+              Courses such as Machine learning, Deep learning, Artificial
+              Intelligence have not only honed my technical skills but also
+              sparked a deeper interest in Machine learning. This robust
+              educational background equips me with the analytical and
+              problem-solving abilities essential for tackling complex
+              challenges.
+            </p>
+            <p>
+              Outside of my academic and professional pursuits, I have a keen
+              interest in Sports. Whether it's Sports, Cinema, or exploring new
+              Activities, these activities provide a well-rounded balance to my
+              life, keeping me energized and inspired. Thank you for taking the
+              time to learn more about me. I am always open to new
+              opportunities, collaborations, and connections. Feel free to reach
+              out if you'd like to discuss potential projects, share insights,
+              or simply connect!
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                  <p class="service-item-text">
+                    To make the best models with best results for each specific
+                    task
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the Medium level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="Problem Solving icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Problem Solving</h4>
+
+                  <p class="service-item-text">
+                    Solving Coding Questions everyday in different platforms to
+                    make my solving skills improve
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at great level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vellore Instituite of Technology Bhopal
+                </h4>
+
+                <span>2021 - 2025</span>
+
+                <p class="timeline-text">
+                  B.Tech in Computer Science with specialization in Artificial
+                  Intelligence and Machine learning CGPA: 8.41/10.0
+                </p>
+                <p class="timeline-text">
+                  Relevent Coursework: Machine learning, Artificial
+                  Intelligence, Data Structures and Algorithms, Python, Computer
+                  Networks, Operating System.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Chinmaya Vidyalaya</h4>
+
+                <span>2019 - 2021</span>
+
+                <p class="timeline-text">Percentage: 95.75%</p>
+                <p class="timeline-text">
+                  Relevant Coursework: Computer Science, HTML, CSS, php, sql,
+                  C++, Science, Maths.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Silver Hills Public School
+                </h4>
+
+                <span>2007 — 2019</span>
+
+                <p class="timeline-text">Percentage: 77%</p>
+                <p class="timeline-text">
+                  Relevant Coursework: CBSE Curriculum
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Artificial Intelligence Intern at Pinnacle Labs
+                </h4>
+
+                <span>June 2024 — Present</span>
+                <p class="timeline-text">
+                  - Implemented advanced machine learning algorithms using
+                  TensorFlow and PyTorch, boosting project outcome prediction
+                  accuracy and streamlining decision-making processes. Achieved
+                  a 25% increase in completion speed.
+                </p>
+                <p class="timeline-text">
+                  - Engineered and optimized models for resume parsing,
+                  translation, and autocorrect tasks, achieving over 90%
+                  accuracy for each.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  MERN Full Stack developer at Ethnus
+                </h4>
+
+                <span>Aug 2023 - Dec 2023</span>
+
+                <p class="timeline-text">
+                  - Implemented frontend components and Refined UI/UX to enhance
+                  user engagement and accessibility.
+                </p>
+                <p class="timeline-text">
+                  - Led the design and development efforts of the fully
+                  responsive web page for E-Commerce Website, utilizing React.js
+                  to create a modern and user-friendly interface
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Machine learning</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Problem Solving</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web development</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="Projects" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="https://github.com/sarathRajendran123/Resume-Parser">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/Resume insight.png"
+                      alt="Resume Insight"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Machine learning</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jun 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Resume Insight</h3>
+
+                    <p class="blog-text">
+                      Developed a resume parsing system using generative AI and
+                      NLP in Python to extract essential information from
+                      resumes, significantly reducing HR workload by 60%.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://github.com/sarathRajendran123/Fake_review">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/Fake_review.png"
+                      alt="Fake Review Detection"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Machine learning</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jan 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Fake Review Detection</h3>
+
+                    <p class="blog-text">
+                      Developed and optimized a machine learning model to
+                      determine whether entered reviews are Computer Generated
+                      or Originally Generated.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://github.com/sarathRajendran123/Text-summarizer">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/text_summarizer.png"
+                      alt="Text Summarizer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Machine Learning</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Mar 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Text Summarizer</h3>
+
+                    <p class="blog-text">
+                      Developed a project that efficiently summarizes extensive
+                      text passages into concise, coherent summaries.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://github.com/sarathRajendran123/harvest_wheels">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/harvestwheels.png"
+                      alt="Harvest Wheels"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">React.js</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Harvest Wheels</h3>
+
+                    <p class="blog-text">
+                      Helped in making the UI and frontend of the project.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://github.com/sarathRajendran123/NLPtasks">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/nlp.png"
+                      alt="Natural Language Processing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Machine Learning</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Mar 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Natural Language Processing
+                    </h3>
+
+                    <p class="blog-text">
+                      Developed programs to achieve various tasks in NLP.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://github.com/sarathRajendran123/MERN-Ecommerce-Website">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/ecommerce.png"
+                      alt="E-Commerce Website"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">MERN</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Dec 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">E-Commerce Website</h3>
+
+                    <p class="blog-text">
+                      Developed an E-Commerce website using MERN.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.52275838434895!2d75.79515233230077!3d11.308073175816162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65e8540000001%3A0x3f2e1c5aeffa2ed8!2sVengeri%20Sri%20Subrahmanya%20Swami%20Temple!5e0!3m2!1sen!2sin!4v1720689400555!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
